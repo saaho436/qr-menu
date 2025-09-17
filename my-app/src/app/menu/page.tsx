@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getMenuData } from "./fetchData";
+import { getMenuData } from "../fetchData";
 
 export default function MenuPage() {
   const [menu, setMenu] = useState<any>(null);
